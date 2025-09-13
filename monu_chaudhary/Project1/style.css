@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding: 0;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+
+.logo-container{
+    width: 20%;
+    height: 4rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-image{
+    width: 10em;
+    height: 5rem;
+}
+
+.links-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    color: rgb(38, 111, 135);
+}
+
+.login-and-signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login-button, .signup-button{
+    border: none;
+    outline: none;
+    background-color: rgb(56, 56, 207);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    color:white;
+}
+
+.landing-container{
+    background-image: url("pexels-pixabay-417173.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.landing-info-container{
+    width: 70%;
+    margin: 10% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.landing-info-paras{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landing-info-paras :nth-child(1){
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(127, 255, 212, 0.192);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+
+.landing-info-paras :nth-child(2){
+    font-size: 4rem;
+    color: white;
+    background-color: rgba(127, 255, 212, 0.192);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+
+}
