@@ -4,12 +4,16 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-bar {
     display: flex;
     justify-content: center;
     align-content: center;
     color: black;
-    overflow-x: none;
+    /* overflow-x: none; */
 }
 
 .logo-container {
@@ -81,7 +85,7 @@
     width: 100vw;
     height: 100vh;
     background-attachment: fixed;
-    overflow-x: none;
+    /* overflow-x: none; */
     background-position: center;
 }
 
@@ -91,7 +95,7 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .landing-info-span {
@@ -135,10 +139,17 @@
     outline: none;
     background-color: red;
     padding: 0.5rem 1rem;
-    border-radius: 1.5rem;
+    border-radius: 10px;
     width: fit-content;
     font-size: 1.1rem;
     color: white;
+    cursor: pointer;
+    transition: transform 300ms ease, background-color 300ms ease;
+}
+
+.booking-button:hover {
+    transform: scale(1.05);
+    background-color: rgba(204, 21, 21, 0.853);
 }
 
 .destination-container {
@@ -159,7 +170,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap:nowrap;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     gap: 2rem;
     width: 90%;
     margin: 0 5%;
@@ -265,3 +276,171 @@
 .destination-book-button:hover {
     background-color: rgba(255, 0, 0, 0.759);
 }
+
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 5% 10%;
+    gap: 2rem;
+    background-color:  #f9fafc;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.about-us-header{
+    width: 100%;
+    text-align: center;
+}
+
+.about-us-header span{
+    font-size: 2rem;
+    font-weight: 700;   
+    color: #333;
+}
+
+.about-us-text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding: 2rem; */
+    gap: 2rem;
+}
+
+.story-container, .mission-vision-container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background: white;
+    width: 45%;
+    height: 15rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.story-container:hover {
+    transform: translateY(-5px);
+    background-color: #dde8f1;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.story-container-para1{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.story-container-para2{
+    font-size:1.2rem;
+    color: gray;
+}
+
+.mission-vision-container:hover {
+    transform: translateY(-5px);
+    background-color: #dde8f1;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.mission-vision-container-header{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.mission-vision-container-para{
+    font-size:1.2rem;
+    color: gray;
+}
+
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 5% 10%;
+    gap: 2rem;
+    background-color:  #f9fafc;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-header{
+    width: 100%;
+    text-align: center;
+}
+
+.contact-us-header span{
+    font-size: 2rem;
+    font-weight: 700;   
+    color: black;
+}
+
+.contact-us-form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 20%;
+    gap: 1.5rem;
+}
+
+.form label {
+    font-weight: 600;
+}
+
+
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #0b2cc0;
+    box-shadow: 0 0 8px rgba(31, 103, 151, 0.3);
+    outline: none;
+}
+
+.name-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #c7b6b6;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.form-submit-button {
+    padding: 0.8rem 2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-submit-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
