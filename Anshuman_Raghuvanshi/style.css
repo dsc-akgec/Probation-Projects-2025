@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    
+}
+
+#logo img{
+    margin:10px 10px;
+    height:50%;
+    width:50%;
+}
+
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity:0.5;
+    position:absolute;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+#navbar ul li a{
+   display: block;
+   padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+} 
+#navbar ul li a:hover{
+   color:black;
+   background-color: white;
+} 
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 200px;
+    height: 690px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url('../Anshuman_Raghuvanshi/images/bg.jpg');
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity:0.5;
+    position:absolute;
+    background-repeat: no-repeat;
+}
+#home h1{
+    text-align: center;
+}
+#home p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading1{
+    font-size:  2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 8px 20px;
+    border:2px solid white;
+    background-color: brown;
+    color:white;
+    margin:17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px 20px;
+    align-items: center;
+    margin: 40px;
+}
+.dish {
+    width: 250px;
+    border-radius: 12px;
+    border: 4px solid brown;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.dish img {
+    width: 100%;
+    height: 300px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 5px;
+}
+.abouts{
+    display: flex;
+    margin:10px;
+    flex-direction: column;
+    gap:20px;
+
+}
+.story{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: peachpuff;
+}
+.ambience{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: peachpuff;
+}
+.chefs{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: peachpuff;
+}
+#ContactUs{
+    font-family: 'Outfit';
+    background-color: rgb(239, 231, 231);
+}
+.form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contactLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
+}
+.contactTitle h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.inputs{
+    width:200px;
+    height:50px;
+    padding-left: 25px;
+    border:none;
+    outline: none;
+    border-radius: 50px;
+}
+.contactLeft button{
+    padding: 4px 5px;
+    border:2px solid white;
+    background-color: rgb(194, 132, 132);
+    color:white;
+    margin:5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contactRight img{
+    width:500px
+}
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+}
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover{
+    color: #fac031;
+}
+
+
+
+
+ 
