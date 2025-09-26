@@ -1,0 +1,131 @@
+[
+    {
+        "id" : 1,
+        "title" : "Veg Burger",
+        "price" : 60,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/bur1.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "Chicken Burger",
+        "price" : 120,
+        "distance" : "190m",
+        "rating" : 4.9,
+        "img" : "assets/bur3.jpg"
+    },
+    {
+        "id" : 3,
+        "title" : "Cheese Burger",
+        "price" : 80,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/bur2.jpg"
+    },
+    {
+        "id" : 4,
+        "title" : "Paneer Burger",
+        "price" : 60,
+        "distance" : "190m",
+        "rating" : 4.7,
+        "img" : "assets/bur4.jpg"
+    },
+    {
+        "id" : 5,
+        "title" : "Crispy Taco",
+        "price" : 100,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/taco_1.jpg"
+    },
+    {
+        "id" : 6,
+        "title" : "Chicken Taco",
+        "price" : 200,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/taco2.png"
+    },
+    {
+        "id" : 7,
+        "title" : "Cheesy Taco",
+        "price" : 120,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/taco3.png"
+    },
+    {
+        "id" : 8,
+        "title" : "Soft Drinks",
+        "price" : 100,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/drink1.jpg"
+    },
+    {
+        "id" : 9,
+        "title" : "Shakes",
+        "price" : 150,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/drink2.jpg"
+    },
+    {
+        "id" : 10,
+        "title" : "Cocktails",
+        "price" : 250,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/drink3.webp"
+    },
+    {
+        "id" : 11,
+        "title" : "Coffee",
+        "price" : 100,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/drink4.jpg"
+    },
+    {
+        "id" : 12,
+        "title" : "Veg Pizza",
+        "price" : 300,
+        "distance" : "190m",
+        "rating" : 4.9,
+        "img" : "assets/pizza1.png"
+    },
+    {
+        "id" : 13,
+        "title" : "Chicken Pizza",
+        "price" : 350,
+        "distance" : "190m",
+        "rating" : 4.8,
+        "img" : "assets/pizza2.webp"
+    },
+    {
+        "id" : 14,
+        "title" : "Margehrita Pizza",
+        "price" : 150,
+        "distance" : "190m",
+        "rating" : 4.9,
+        "img" : "assets/pizza3.jpg"
+    },
+     {
+        "id" : 15,
+        "title" : "Onion Paneer Pizza",
+        "price" : 150,
+        "distance" : "190m",
+        "rating" : 4.9,
+        "img" : "assets/pizza4.jpg"
+    },
+     {
+        "id" : 16,
+        "title" : "Corn Pizza",
+        "price" : 150,
+        "distance" : "190m",
+        "rating" : 4.9,
+        "img" : "assets/pizza5.jpg"
+    }
+
+]
